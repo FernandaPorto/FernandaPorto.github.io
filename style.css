@@ -13,7 +13,7 @@ h1 {
 }
 
 body {
-    background-color: blanchedalmond;
+    background-image: url(images.jpeg);
     font-family: monospace;
     max-width: 80%;
     padding: 30px;
@@ -39,10 +39,12 @@ li {
 }
 
 .Presentation {
-    background-color: rgb(241, 204, 135);
+    background-color:#ebf8d2;
     vertical-align: middle;
     border-radius: 45% 0 60% 0;
     margin-bottom: 15px;
+    border:solid;
+    border-color: maroon;
     }
 
 .Presentation-text {
