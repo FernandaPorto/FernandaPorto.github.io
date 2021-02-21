@@ -22,7 +22,7 @@ body {
 
 
 .PictureStyle {
-    border-radius: 50%;
+    border-radius: 30%;
     margin-left: 50px;
     padding-bottom: 30px;
     display: inline-block;
@@ -39,9 +39,9 @@ li {
 }
 
 .Presentation {
-    background-color:#ebf8d2;
+    background-color:linen;
     vertical-align: middle;
-    border-radius: 45% 0 60% 0;
+    border-radius: 30%;
     margin-bottom: 15px;
     border:solid;
     border-color: maroon;
