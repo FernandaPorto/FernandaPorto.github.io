@@ -9,6 +9,7 @@
 h1 {
     color: maroon;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 body {
@@ -40,7 +41,7 @@ li {
 .Presentation {
     background-color: rgb(241, 204, 135);
     vertical-align: middle;
-    border-radius: 45% 0 75% 0;
+    border-radius: 45% 0 60% 0;
     margin-bottom: 15px;
     }
 
@@ -50,4 +51,5 @@ li {
     text-align: center;
     padding-bottom: 30px;
     vertical-align: middle;
+    line-height: 25px;
 }
