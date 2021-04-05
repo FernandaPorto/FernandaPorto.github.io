@@ -1,8 +1,6 @@
-
-
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -13,38 +11,36 @@ h1 {
 }
 
 body {
-    background-image: url(images.jpeg);
+    background-image: url(background.jpg);
+    background-size: cover;
     font-family: monospace;
-    max-width: 85%;
-    padding: 30px;
     margin: auto;
 }
 
 
 .PictureStyle {
-    border-radius: 30%;
+    border-radius: 1000px;
     margin-left: 50px;
     padding-bottom: 30px;
     display: inline-block;
     margin-right: 30px;
     vertical-align: middle;
     padding-top: 30px;
-
 }
 
 li {
     padding: 4px;
     margin-bottom: 5px;
-    
 }
 
 .Presentation {
     background-color:linen;
     vertical-align: middle;
-    border-radius: 30%;
+    border-radius: 50px;
     margin-bottom: 15px;
     border:solid;
-    border-color: maroon;
+    border-color: lightgray;
+    text-align: center;
     }
 
 .Presentation-text {
@@ -56,13 +52,25 @@ li {
     line-height: 25px;
 }
 footer {
-    margin-top: 30px;
-    background-color: lightgrey;
+    background-color: lightsalmon;
     padding: 15px;
-    border: solid silver;    
+    border: solid silver;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
 }
   
 table {
     margin: auto;
     text-align: center;
+}
+
+.projects img {
+    width: 250px;
+    height: 150px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
 }
