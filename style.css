@@ -17,6 +17,9 @@ body {
     margin: auto;
 }
 
+h2 , p {
+    margin-left: 20px;
+}
 
 .PictureStyle {
     margin-left: 50px;
@@ -28,12 +31,14 @@ body {
 }
 
 #personalPhoto {
-    border-radius: 25px; 
+    border-radius: 50px 25px;
+    border: solid gray;
 }
 
 li {
     padding: 4px;
     margin-bottom: 5px;
+    margin-left: 50px;
 }
 
 .Presentation {
@@ -43,6 +48,8 @@ li {
     border:solid;
     border-color: lightsalmon;
     text-align: center;
+    color: white;
+    font-size: x-large;
     }
 
 .Presentation-text {
@@ -70,6 +77,8 @@ table {
 .projects img {
     width: 250px;
     height: 150px;
+    box-shadow:  inset 10px 5px 1em gold, 10px 5px 1em gray;
+    border-radius: 5px;
 }
 
 .projects {
