@@ -19,7 +19,6 @@ body {
 
 
 .PictureStyle {
-    border-radius: 1000px;
     margin-left: 50px;
     padding-bottom: 30px;
     display: inline-block;
@@ -28,18 +27,21 @@ body {
     padding-top: 30px;
 }
 
+#personalPhoto {
+    border-radius: 25px; 
+}
+
 li {
     padding: 4px;
     margin-bottom: 5px;
 }
 
 .Presentation {
-    background-color:linen;
+    background-color:#776D91;
     vertical-align: middle;
-    border-radius: 50px;
     margin-bottom: 15px;
     border:solid;
-    border-color: lightgray;
+    border-color: lightsalmon;
     text-align: center;
     }
 
@@ -52,9 +54,9 @@ li {
     line-height: 25px;
 }
 footer {
-    background-color: lightsalmon;
+    background-color: #776D91;
     padding: 15px;
-    border: solid silver;
+    border: solid lightsalmon;
     position: fixed;
     width: 100%;
     bottom: 0px;
